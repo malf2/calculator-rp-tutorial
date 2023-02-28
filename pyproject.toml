@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "calculator-rp-tutorial"
+version = "0.1.0"
+description = "Demo for documentation automation with mkdocs and mkdocstrings."
+authors = ["Matheus De Lima Freire <matheus.delimafreire@arup.com>"]
+readme = "README.md"
+packages = [{include = "calculator_rp_tutorial"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+mkdocs-material = "^9.0.15"
+mkdocs = "^1.4.2"
+mkdocstrings = {extras = ["python"], version = "^0.20.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
