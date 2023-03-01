@@ -23,6 +23,7 @@ The module contains the following functions:
 
 from typing import Union
 
+
 def add(a: Union[float, int], b: Union[float, int]) -> float:
     """Compute and return the sum of two numbers.
 
@@ -105,3 +106,5 @@ def divide(a: Union[float, int], b: Union[float, int]) -> float:
     if b == 0:
         raise ZeroDivisionError("division by zero")
     return float(a / b)
+
+
